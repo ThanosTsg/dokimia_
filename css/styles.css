@@ -102,12 +102,14 @@ a:hover {
     display: block;
     list-style: none;
     transition: 0.5s ease;
+     overflow-x: hidden!important;
 }
 
 .nav-collapse li {
     width: 100%;
     display: block;
     transition: 0.5s ease;
+     overflow-x: hidden!important;
 }
 
 .js .nav-collapse {
@@ -116,14 +118,17 @@ a:hover {
     display: block;
     overflow: hidden;
     zoom: 1;
+     overflow-x: hidden!important;
 }
 
 .nav-collapse.opened {
     max-height: 9999px;
+     overflow-x: hidden!important;
 }
 
 .disable-pointer-events {
     pointer-events: none !important;
+     overflow-x: hidden!important;
 }
 
 .nav-toggle {
@@ -134,18 +139,22 @@ a:hover {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+     overflow-x: hidden!important;
 }
 
 @media screen and (min-width: 56em) {
     .js .nav-collapse {
         position: relative;
+         overflow-x: hidden!important;
     }
     .js .nav-collapse.closed {
         max-height: none;
+         overflow-x: hidden!important;
     }
     .nav-toggle {
         display: none;
         height: 10%;
+         overflow-x: hidden!important;
     }
 }
 
@@ -155,6 +164,8 @@ a:hover {
 --------------------------------------------- */
 
 body {
+     margin: auto;
+    display:block;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
@@ -1535,6 +1546,8 @@ textarea {
 
 @media screen and (max-width: 30em) {
     body {
+          margin: auto;
+    display:block;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
@@ -1640,6 +1653,8 @@ textarea {
 
 @media screen and (max-width: 25em) {
     body {
+          margin: auto;
+    display:block;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
