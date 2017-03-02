@@ -55,22 +55,27 @@ a:hover {
 
 @-webkit-viewport {
     width: device-width;
+     overflow-x: hidden!important;
 }
 
 @-moz-viewport {
     width: device-width;
+     overflow-x: hidden!important;
 }
 
 @-ms-viewport {
     width: device-width;
+     overflow-x: hidden!important;
 }
 
 @-o-viewport {
     width: device-width;
+     overflow-x: hidden!important;
 }
 
 @viewport {
     width: device-width;
+     overflow-x: hidden!important;
 }
 
 #prices {
@@ -157,7 +162,7 @@ body {
     background: #fff;
     font: normal 100%/1.4 'Ubuntu-Light';
     background-color: white;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 section {
@@ -955,7 +960,7 @@ textarea {
         height: 100%;
         padding-top: 20px;
         padding-bottom: 160px;
-        background-image: url(c6.jpg);
+        background-image: url(https://dl.dropbox.com/s/334u4rwx5p59weo/c6.jpg?dl=0);
         background-size: 1333px 1000px;
         background-repeat: no-repeat;
     }
@@ -1529,6 +1534,16 @@ textarea {
 }
 
 @media screen and (max-width: 30em) {
+    body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    color: #37302a;
+    background: #fff;
+    font: normal 100%/1.4 'Ubuntu-Light';
+    background-color: white;
+    overflow-x: hidden!important;
+}
     #ex {
         padding-left: 28px;
         padding-top: 20px;
@@ -1606,7 +1621,7 @@ textarea {
         position: relative;
         padding-bottom: 0px;
         padding-top: 20px;
-        background-image: url(c6.jpg);
+        background-image: url(https://dl.dropbox.com/s/334u4rwx5p59weo/c6.jpg?dl=0);
         background-size: 1265px 840px;
         background-repeat: no-repeat;
     }
@@ -1624,6 +1639,16 @@ textarea {
 }
 
 @media screen and (max-width: 25em) {
+    body {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    color: #37302a;
+    background: #fff;
+    font: normal 100%/1.4 'Ubuntu-Light';
+    background-color: white;
+    overflow-x: hidden!important;
+}
     #end div {
         border-bottom-style: dashed;
         border-bottom-color: white;
@@ -1700,7 +1725,7 @@ textarea {
         display: block;
         padding-bottom: 80px;
         padding-top: 20px;
-        background-image: url(c6.jpg);
+        background-image: url(https://dl.dropbox.com/s/334u4rwx5p59weo/c6.jpg?dl=0);
         background-size: 1333px 1000px;
         background-repeat: no-repeat;
     }
